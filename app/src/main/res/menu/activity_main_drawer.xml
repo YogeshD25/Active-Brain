@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item android:title="Local Music Player">
+    <menu>
+        <item
+            android:id="@+id/all_song"
+            android:icon="@drawable/ic_album_black_48dp"
+            android:title="All Songs" />
+        <item
+            android:id="@+id/playlist"
+            android:icon="@drawable/ic_music_video_black_48dp"
+            android:title="Playlist" />
+        <item
+            android:id="@+id/album"
+            android:icon="@drawable/ic_album_black_48dp"
+            android:title="Album" />
+        <item
+            android:id="@+id/artist"
+            android:icon="@drawable/ic_headset_black_24dp"
+            android:title="Artist" />
+    </menu>
+        </item>
+
+
+    <item android:title="Recognize Portal">
+        <menu>
+            <item
+                android:id="@+id/camera"
+                android:icon="@drawable/ic_add_to_photos_black_24dp"
+                android:title="Camera Portal" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Developer" />
+        </menu>
+    </item>
+
+</menu>
